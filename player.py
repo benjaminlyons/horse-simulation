@@ -11,7 +11,7 @@ class Player:
 		self.streak = 0
 		self.pjump = pj
 		self.score = 0
-
+		self.wins = 0
 	# takes a random shot and returns True/False depending on result
 	def shoot(self):
 		# get random number to determine the type of shot
